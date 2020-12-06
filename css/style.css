@@ -1,0 +1,233 @@
+@-webkit-keyframes rotate1 {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes rotate2 {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(-360deg);
+	}
+}
+
+
+.contents{
+	background-size: cover;
+	background-position: 0 40%;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	bottom: 60px;
+	right: 530px;
+	border: 4px solid #000000;
+}
+
+.folder{
+	position: absolute;
+	width: 150px;
+	height: auto;
+
+}
+
+.folder-text{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 500;
+	font-size:1.1rem;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.folder-music{
+	left: 190px;
+	top: 90px;
+}
+
+.folder-war{
+	left: 130px;
+	bottom: 120px;
+}
+
+.folder-death{
+	left: 480px;
+	top: 280px;
+}
+
+.folder-revolution{
+	left: 560px;
+	bottom: 180px;
+}
+
+.folder-love{
+	right: 190px;
+	top: 55px;
+}
+
+.folder-demo{
+	right: 120px;
+	bottom: 270px;
+}
+
+.star{
+	position: absolute;
+	width: 200px;
+	height: auto;
+
+}
+
+.ani1{
+	animation-name: rotate1;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.ani2{
+	animation-name: rotate1;
+	animation-duration: 7s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.ani3{
+	animation-name: rotate2;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.after-star{
+	position: absolute;
+	width: 200px;
+	height: auto;
+}
+
+.icon{
+	position: absolute;
+	width: 40px;
+	height: auto;
+}
+
+.content{
+	position: absolute;
+}
+
+
+.content-music{
+	position: absolute;
+	width: 320px;
+	height: auto;
+	top: 80px;
+	left: 70px;
+}
+
+.content-war{
+	position: absolute;
+	width: 300px;
+	height: auto;
+	bottom: 55px;
+	left: 40px;
+}
+
+.content-death{
+	position: absolute;
+	width: 230px;
+	height: auto;
+	top: 270px;
+	left: 380px;
+}
+
+.content-revolution{
+	position: absolute;
+	width: 300px;
+	height: auto;
+	bottom: 350px;
+	left: 440px;
+}
+
+.content-love{
+	position: absolute;
+	width: 240px;
+	height: auto;
+	top: 50px;
+	right: 200px;
+}
+
+.content-demo{
+	position: absolute;
+	width: 210px;
+	height: auto;
+	top: 390px;
+	right: 30px;
+}
+
+.resistance{
+	position: absolute;
+	bottom: 370px;
+	right: 230px;
+}
+
+.main-title{
+	position: absolute;
+	top: 60px;
+	right: 55px;
+
+}
+
+.sub-title{
+	position: absolute;
+	top: 35px;
+	right: 60px;
+
+}
+
+.place{
+	position: absolute;
+	bottom: 160px;
+	right: 60px;
+}
+
+.time{
+	position: absolute;
+	bottom: 60px;
+	right: 60px;
+}
+
+.host-1{
+	position: absolute;
+	bottom: 20px;
+	left: 35px;
+}
+
+.host-2{
+	position: absolute;
+	bottom: 20px;
+	left: 400px;
+}
+
+.host-img{
+	margin-left: 10px;
+}
+
+.host1-img{
+	width: auto;
+	height: 20px;
+	position: absolute;
+	bottom: 10px;
+}
+
+.host2-img{
+	width: auto;
+	height: 18px;
+	position: absolute;
+	bottom: 10px;
+}
+
+
